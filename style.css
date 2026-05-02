@@ -79,6 +79,42 @@ ul { list-style: none; }
   flex-shrink: 0;
 }
 
+/* ===== COMMUNITY BANNER ===== */
+.community-banner {
+  background: linear-gradient(90deg, rgba(26, 10, 46, 0.85), rgba(10, 22, 40, 0.8), rgba(26, 10, 46, 0.85));
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+}
+
+.community-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.community-badge {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--neon-blue);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(168,85,247,0.08);
+  padding: 6px 14px;
+  white-space: nowrap;
+}
+
+.community-text {
+  margin: 0;
+  max-width: 760px;
+  color: var(--neon-pink);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
 /* ===== NAVBAR ===== */
 .navbar {
   position: sticky;
